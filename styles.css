@@ -33,6 +33,17 @@ header {
     cursor: pointer;
 }
 
+.background {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-image: url(./img/background.png);
+    width: 100%;
+}
+
+.bg-preto {
+    background-color: var(--preto);
+}
+
 @media screen and (max-width: 991px) {
     .header-imagens {
         display: none;
