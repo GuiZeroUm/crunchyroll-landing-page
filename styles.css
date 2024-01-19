@@ -44,6 +44,24 @@ header {
     background-color: var(--preto);
 }
 
+.color-branco {
+    color: var(--amarelo);
+}
+
+.eu {
+    padding-left: 1rem;
+    max-width: 100px;
+}
+
+.color-white {
+    color: #fff;
+}
+
+.p-bottom {
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
 @media screen and (max-width: 991px) {
     .header-imagens {
         display: none;
