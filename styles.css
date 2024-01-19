@@ -1,0 +1,40 @@
+:root {
+    --amarelo: #FABB18;
+    --laranja: #F47521;
+    --vermelho: #EF4323;
+    --azul: #2ABDBB;
+    --preto-claro: #23252B;
+    --preto: #17181A;
+}
+
+header {
+    background-color: var(--preto-claro);
+}
+
+.logo {
+    padding-right: 1rem;
+}
+
+.logo:hover {
+    transition: 200ms linear;
+    cursor: pointer;
+    filter:saturate(0%);
+}
+
+.nav-item {
+    padding-right: 1rem;
+}
+
+.espaco {
+    padding-left: 1.5rem;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 991px) {
+    .header-imagens {
+        display: none;
+    }
+}
